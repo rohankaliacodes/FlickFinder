@@ -1,0 +1,115 @@
+.movie-select-container {
+  text-align: center;
+  border: 2px solid #eaeaea;
+  padding: 16px;
+  max-width: 300px; 
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden; 
+}
+
+.movie-image {
+  max-width: 100%;
+  height: auto;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.movie-image:hover {
+  transform: scale(1.05);
+}
+
+.review-rating {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #333;
+}
+
+.buttons-container {
+  margin-top: 16px;
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: center; 
+}
+
+.dislike-button,
+.like-button,
+.find-matches-button,
+.SearchTalent-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  margin: 5px; /* Adjusted margin */
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.dislike-button {
+  background-color: #f44336;
+  color: #fff;
+}
+
+.dislike-button:hover {
+  background-color: #d32f2f;
+}
+
+.like-button {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.like-button:hover {
+  background-color: #388e3c;
+}
+
+.find-matches-button {
+  background-color: #008CBA;
+  color: #fff;
+}
+
+.find-matches-button:hover {
+  background-color: #005f6b;
+}
+
+/* MovieSelect.css */
+
+
+.additional-buttons-container {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.logout-button,
+.edit-user-button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.logout-button {
+  background-color: #f44336;
+  color: white;
+}
+
+.logout-button:hover {
+  background-color: #d32f2f;
+}
+
+.edit-user-button {
+  background-color: #4caf50;
+  color: white;
+}
+
+.edit-user-button:hover {
+  background-color: #388e3c;
+}

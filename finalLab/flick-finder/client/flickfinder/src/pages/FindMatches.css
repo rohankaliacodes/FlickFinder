@@ -1,0 +1,155 @@
+/* FindMatches.css */
+
+/* Overall page styles */
+.find-matches-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  background-color: #f3f3f3; /* Light grey background for a soft look */
+  min-height: 100vh; /* Full height */
+}
+
+/* Styling for input container */
+.input-container {
+  width: 100%;
+  max-width: 320px; /* Set a max-width for inputs */
+  margin-bottom: 20px;
+  background-color: #fff; /* White background */
+  padding: 15px;
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1); /* Subtle shadow */
+}
+
+/* Input label styles */
+label {
+  display: block; /* Make the label take the full width */
+  color: #333; /* Dark grey color for contrast */
+  margin-bottom: 5px;
+  font-weight: 500; /* Less boldness */
+}
+
+/* Input field styles */
+input[type="text"] {
+  width: calc(100% - 20px); /* Full width minus padding */
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 2px solid #ddd; /* Lighter border */
+  border-radius: 5px; /* Slightly rounded corners for the input */
+  font-size: 16px;
+  box-sizing: border-box; /* Include padding in width */
+}
+
+/* Button styles */
+button {
+  width: 100%;
+  max-width: 320px;
+  padding: 15px 0;
+  background-color: #ff0055; /* Bright color for call to action */
+  color: #fff;
+  border: none;
+  border-radius: 25px; /* More pronounced rounded corners for buttons */
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #e6004c; /* Slightly darker on hover */
+}
+
+/* Movie card styles */
+.movie-card {
+  text-align: center;
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+h2 {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+img {
+  max-width: 80%;
+  height: auto;
+  border-radius: 15px;
+  margin-top: 20px;
+}
+
+/* Navigation buttons styles */
+.buttons-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.navigation-button {
+  padding: 10px 20px;
+  background-color: #0078d4;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.navigation-button:hover {
+  background-color: #005a9e;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .find-matches-container {
+      padding: 20px;
+  }
+
+  .input-container, button {
+      width: 90%;
+  }
+
+  img {
+      max-width: 90%;
+  }
+}
+
+.additional-buttons-container {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.logout-button,
+.edit-user-button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.logout-button {
+  background-color: #f44336;
+  color: white;
+}
+
+.logout-button:hover {
+  background-color: #d32f2f;
+}
+
+.edit-user-button {
+  background-color: #4caf50;
+  color: white;
+}
+
+.edit-user-button:hover {
+  background-color: #388e3c;
+}

@@ -1,0 +1,149 @@
+.App {
+  text-align: center;
+  font-family: 'Orbitron', sans-serif;
+}
+.App-header {
+  padding: 20px;
+  color: #ffffff;
+}
+
+.App-input {
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid #e62429;
+  border-radius: 4px;
+  background-color: #f4f4f4;
+  color: #202020;
+}
+
+.App-button {
+  background-color: #007bff;
+  color: white;
+  padding: 12px 24px;
+  margin: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.App-button:hover {
+  background-color: #0056b3;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+  transform: translateY(-2px);
+}
+
+.App-error {
+  color: #e62429;
+  margin: 10px;
+}
+
+.App-toggle {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.App-toggle:hover {
+  background-color: #218838;
+}
+
+/* Keyframe animation for the logo */
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Additional styles for Login and Register pages */
+.Login,
+.Register {
+  padding: 20px;
+  background-color: #16202A;
+  border-radius: 8px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.6);
+  margin: 20px auto;
+  max-width: 400px;
+}
+
+.Login h2,
+.Register h2 {
+  color: #FFD700;
+}
+
+/* Adjust the button styling specifically for Login and Register */
+.Login .App-button,
+.Register .App-button {
+  width: 100%;
+  box-shadow: none;
+}
+
+.search-container {
+  padding: 10px;
+  margin-top: -20px;
+  background-color: #202020;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.superheroes-container {
+  margin-top: 20px;
+}
+
+.About-section {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  z-index: 10;
+  width: 80%;
+  max-width: 600px;
+}
+
+/* Optional: Backdrop styles */
+.About-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9;
+}
+
+.App-description {
+  color: #fff;
+  max-width: 800px;
+  margin: 20px auto;
+  font-size: 1rem;
+  line-height: 1.6;
+  text-align: center;
+  padding: 0 10px;
+  font-family: strain;
+}
+
+p {
+  color: rgb(0, 0, 0);
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1rem;
+  line-height: 1.6;
+  text-align: center;
+  padding: 20px;
+  font-family: 'Orbitron', sans-serif;
+}
